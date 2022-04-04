@@ -1,6 +1,7 @@
 
 import './App.css';
 import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
@@ -8,7 +9,11 @@ function App() {
           <div className='head'>
               {/* <h1>Fb</h1> */}
           </div>
-          <Header/>
+          <Header />
+          
+          <main className='flex bg-gray-100'>
+              <Sidebar />
+          </main>
       </div>
   );
 }
